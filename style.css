@@ -1,0 +1,143 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Style do navbar */
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;  
+  }
+  
+  /* Navbar links */
+.navbar .logo-top{
+        float:none;
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        left: 30px;
+        width: 7em;       
+}
+.navbar .center-top{
+    float: left;
+    text-align: center;
+    padding: 54px 26px 40px 26px ;
+    margin:  auto 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    display:block;
+  }
+
+.center-top{
+    left: 550px;
+  }
+
+.navbar a:hover {
+    background-color: #000;
+  }
+  
+#ativo {
+    background-color: #00FF99;
+  }
+  
+  
+@media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+.container  #fundo{
+    width: 100%;
+}
+.container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+.container .sobre-geek {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 97.5%; 
+    padding: 20px 0px 20px 20px; 
+}
+h1{
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 0 0 0.5em;
+  }
+
+  h2{
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    padding: 1em 0 1em 0;
+
+}
+.botoes{
+  margin: 0 450px 0 500px;
+}
+
+.botao{
+  width: 20%;
+  padding: 10px 0;
+  left: 650px;
+  margin: 0 35px  0 0;
+  background-color: #00FF99;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  border: none;
+  border-radius: 5px;
+
+}
+.botao:hover{
+  background-color: #2c5243;
+  transform: scale(1.2) ;
+
+}
+.input-padrao {
+  display: block;
+  margin: 5px auto;
+  padding: 1em 0 1em 0;
+  width: 50% ;   
+}
+
+.enviar{
+  width: 16%;
+  padding: 13px;
+  background-color: #00FF99;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer ;
+  margin: 0 0 6px 1175px  ;
+}
+
+.enviar:hover{
+  background-color: #2c5243;
+  transform: scale(1.2)
+
+}
+
+
+
+
+footer{
+    text-align: center;
+    color: aliceblue;
+    background: url("./images/bg.jpg");
+    background-color: #555;
+    padding: 0 0 1em 0;
+ }
